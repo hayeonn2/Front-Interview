@@ -4,7 +4,7 @@
 <br />
 ## 📕 CS(Computer Science)
 ### 네트워크(Network)
-- HTTP와 HTTPS
+- [HTTP와 HTTPS](https://github.com/hayeonn2/Front-Interview/commit/e89780bba31c0735d98d7c609511faee8554f149?short_path=e2ecf22#diff-e2ecf22eb63e5164296c305d02aa8adf26fefafe71a030fdbdf77a732843d440)
 - DNS(Domain Name System)
 - OSI 7계층
 
