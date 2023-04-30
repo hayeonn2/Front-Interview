@@ -7,6 +7,7 @@
 - [HTTP와 HTTPS](https://github.com/hayeonn2/Front-Interview/blob/main/CS/Network/HTTP_HTTPS.md)
 - [DNS(Domain Name System)](https://github.com/hayeonn2/Front-Interview/blob/main/CS/Network/DNS.md)
 - [TCP와 UDP](https://github.com/hayeonn2/Front-Interview/blob/main/CS/Network/TCP_UDP.md)
+- [TCP 3-way-handshaking & 4-way-handshaking](https://github.com/hayeonn2/Front-Interview/blob/main/CS/Network/TCP-3-way-handshaking_4-way-handshaking.md)
 - OSI 7계층
 
 <br />
