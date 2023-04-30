@@ -1,4 +1,9 @@
 # 💻 TCP 3-way-handshaking & 4-way-handshaking
+> 참고
+> <br/>
+> [[Network] TCP 3-way handshaking과 4-way handshaking](https://gmlwjd9405.github.io/2018/09/19/tcp-connection.html)
+> <br/>
+> [TCP의 3 way Handshake과 4 way Handshake](http://needjarvis.tistory.com/157)
 
 TCP는 네트워크 계층 중 <b>전송 계층</b>에서 사용하는 프로토콜 중 하나로 <b>신뢰성을 보장하는 연결형 서비스</b>이다.
 <br/>
@@ -12,6 +17,7 @@ TCP 통신을 이용해 데이터를 전송하기 위해 연결을 설정하는 
 
 - 양쪽 모두 데이터를 전송할 준비가 되었다는 것을 보장한다.
   <br/>
+![image](https://user-images.githubusercontent.com/111109573/235368006-4ec55ad6-f3f9-4317-aae9-02b70bfa4fbd.png)
 
 <b>A 프로세스(클라이언트)가 B 프로세스(서버)에 연결을 요청</b>
 
@@ -28,6 +34,8 @@ TCP 통신을 이용해 데이터를 전송하기 위해 연결을 설정하는 
 <br/>
 
 ## 🏷️ TCP 4-way-handshaking : Connection Termination
+![image](https://user-images.githubusercontent.com/111109573/235368029-60d5ec89-13b4-4edb-b2fe-28a14d84ea18.png)
+
 
 <b>A 프로세스(클라이언트)가 B 프로세스(서버)에 연결 해제를 요청</b>
 
@@ -51,6 +59,7 @@ TCP 통신을 이용해 데이터를 전송하기 위해 연결을 설정하는 
    - 프로세스 A로부터 ACK 메시지를 받은 프로세스 B는 소켓 연결을 해제한다.
 
 최종 포트 상태 : A-CLOSED, B-CLOSED (연결 해제)
+<br/>
 <br/>
 
 ### 🏷️ 포트(PORT) 상태 정보
