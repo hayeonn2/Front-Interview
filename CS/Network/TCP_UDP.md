@@ -18,3 +18,6 @@
 - 신뢰성이 낮다.
 - TCP보다 속도가 빠르다.
 - 데이터 전송 단위 : Datagram
+<br/>
+
+![image](https://user-images.githubusercontent.com/111109573/235364548-76471c84-b305-405b-93fa-ede9ef304338.png)
