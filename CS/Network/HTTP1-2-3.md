@@ -10,6 +10,8 @@
 <br/>
 
 ### 2. 다중화
+<img src="https://github.com/hayeonn2/Front-Interview/assets/111109573/9015ef9a-7391-4ce6-a183-590df363c712" width="500" >
+
 
 - HTTP/1.1은 기본적으로 하나의 TCP 연결을 통해 하나의 요청과 응답을 처리한다.
 
@@ -17,9 +19,8 @@
 
 - HTTP/2.0은 하나의 TCP 연결에서 여러 개 요청, 응답 동시 처리하도록 다중화(Multiplexing)을 지원한다.
   - 여러 개의 요청과 응답을 '병렬'로 처리하며 불필요한 대기 시간을 줄이고 전송 속도를 높인다.
-
-[참고]
-HTTP/1.1에서 Keep-Alive를 사용하면 요청을 보내고 반환을 받은 후에도 커넥션을 유지할 수 있다. 하지만 위 이미지에서 중간 Pipelined HTTP와 같이 [요청-응답][요청-응답]형태로 반복된다. Multiplexed HTTP처럼 병렬적으로 처리하는 것은 불가능하다.
+- 참고
+  - HTTP/1.1에서 Keep-Alive를 사용하면 요청을 보내고 반환을 받은 후에도 커넥션을 유지할 수 있다. 하지만 위 이미지에서 중간 Pipelined HTTP와 같이 [요청-응답][요청-응답]형태로 반복된다. Multiplexed HTTP처럼 병렬적으로 처리하는 것은 불가능하다.
 
 <br/>
 
@@ -50,6 +51,7 @@ HTTP/1.1에서 Keep-Alive를 사용하면 요청을 보내고 반환을 받은 �
 ## HTTP/2.0과 HTTP/3.0 차이점
 
 ### 1. 전송 방식
+<img src="https://github.com/hayeonn2/Front-Interview/assets/111109573/f3108e78-2ca2-4573-a3fb-2a37c28c5510" width="500" >
 
 - HTTP/2.0과 3.0의 대표적인 차이는 전송 방식에 있다.
 - HTTP/2.0은 TCP를 기반으로 동작한다.
@@ -76,6 +78,7 @@ HTTP/1.1에서 Keep-Alive를 사용하면 요청을 보내고 반환을 받은 �
 <br/>
 
 ### 4. 지연 시간 감소
+<img src="https://github.com/hayeonn2/Front-Interview/assets/111109573/168409ff-43e3-42c4-8297-e8cfc6d198ef" width="600" >
 
 - HTTP/3.0의 QUIC 프로토콜은 UDP 기반으로 동작하며 TCP와 다르게 연결설정, 해제 과정을 필요로하지 않아서 지연 시간이 감소하고 통신 속도가 빨라진다.
 - 하지만 handshake를 완전히 안하는 것이 아니라 3-way-handshake, 4-way-handshake 대신 1-RTT(One Round Trip Time) handshake를 사용한다.
