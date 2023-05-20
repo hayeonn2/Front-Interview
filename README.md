@@ -14,6 +14,8 @@
 - [DNS(Domain Name System)](https://github.com/hayeonn2/Front-Interview/blob/main/CS/Network/DNS.md)
 - [TCP와 UDP](https://github.com/hayeonn2/Front-Interview/blob/main/CS/Network/TCP_UDP.md)
 - [TCP 3-way-handshaking & 4-way-handshaking](https://github.com/hayeonn2/Front-Interview/blob/main/CS/Network/TCP-3-way-handshaking_4-way-handshaking.md)
+- [URI](https://github.com/hayeonn2/Front-Interview/blob/main/CS/Network/uri.md)
+- [REST API](https://github.com/hayeonn2/Front-Interview/blob/main/CS/Network/Rest-API.md)
 
 <br />
 <br />
